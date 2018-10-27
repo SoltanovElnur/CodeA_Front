@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="Public/styles/req_login.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="form" id="register_form">
+    <form action="#">
+        <input type="text" id="name" placeholder="Name">
+        <input type="email" id="email" placeholder="Email">
+        <input type="password" id="password" placeholder="Password">
+        <input type="password" id="passwordew" placeholder="Re- Password">
+        <input type="submit" class="smb" id="sbm_register" onclick="register();">
+        <p class="message" id="logon">Already Registered? <a href="#">Login</a></p>
+    </form>
+</div>
+<div class="form" id="login_form">
+    <form action="#">
+        <input type="email" id="email_login" placeholder="Email">
+        <input type="password" id="password_login" placeholder="Password">
+        <input type="button" value="Submit" class="smb" id="sbm_login" onclick="login()">
+        <p class="message" id="register">Not Registered? <a href="#">Register</a></p>
+    </form>
+</div>
+
+
+<script src="Public/scripts/req_login.js"></script>
+<script src='https://code.jquery.com/jquery-3.3.1.min.js'></script>
+<script> 
+    localStorage.count = 1;
+    $('.message a').click(function(){
+        $('.form').animate({height: "toggle", opacity:"toggle"}, "slow");
+    });
+</script>
+</body>
+</html>

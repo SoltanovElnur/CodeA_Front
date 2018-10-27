@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'visby_cfbold';
+    src: url('VisbyCF-Bold-az.ttf') format('truetype'),
+        url('visbycf-bold-az-webfont.woff') format('woff'),
+        url('visbycf-bold-az-webfont.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'visby_cfdemi_bold';
+    src: url('VisbyCF-DemiBold-az.ttf') format('truetype'),
+        url('visbycf-demibold-az-webfont.woff') format('woff'),
+        url('visbycf-demibold-az-webfont.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'visby_cfextra_bold';
+    src: url('VisbyCF-ExtraBold-az.ttf') format('truetype'),
+        url('visbycf-extrabold-az-webfont.woff') format('woff'), 
+        url('visbycf-extrabold-az-webfont.woff2') format('woff');
+    ;
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'visby_cfheavy';
+    src: url('VisbyCF-Heavy-az.ttf') format('truetype'), 
+        url('visbycf-heavy-az-webfont.woff') format('woff'), 
+        url('visbycf-heavy-az-webfont.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'visby_cflight';
+    src: url('VisbyCF-Light-az.ttf') format('truetype'), 
+        url('visbycf-light-az-webfont.woff') format('woff'), 
+        url('visbycf-light-az-webfont.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'visby_cfmedium';
+    src: url('VisbyCF-Medium-az.ttf') format('truetype'), 
+        url('visbycf-medium-az-webfont.woff') format('woff'), 
+        url('visbycf-medium-az-webfont.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'visby_cfthin';
+    src: url('VisbyCF-Thin-az.ttf') format('truetype'), 
+        url('visbycf-thin-az-webfont.woff') format('woff'), 
+        url('visbycf-thin-az-webfont.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
